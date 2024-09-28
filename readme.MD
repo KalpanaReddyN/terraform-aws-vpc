@@ -1,6 +1,6 @@
 # Terraform AWS VPC Module Customised
 
-![alt text](Pictures\vpc-1.drawio)
+![alt text](Pictures\vpc-1.jpg)
 
 
 This module is going to create the following resources. for HA we are going to get first 2 AZ.
