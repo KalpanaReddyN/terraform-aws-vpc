@@ -70,9 +70,9 @@ variable "db_subnet_group_tags" {
     default = {}
 }
 
-# variable "nat_gateway_tags" {
-#     default = {}
-# }
+variable "nat_gateway_tags" {
+    default = {}
+}
 
 # variable "public_route_table_tags" {
 #     default = {}
