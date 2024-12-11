@@ -2,27 +2,31 @@ output "vpc_id" {
     value = aws_vpc.main.id
 }
 
-output "public_subnet_ids" {
-    value = aws_subnet.public[*].id
-}
+# output "az_info" {
+#     value = data.aws_availability_zones.available
+# }
 
-output "private_subnet_ids" {
-    value = aws_subnet.private[*].id
-}
+# output "public_subnet_ids" {
+#     value = aws_subnet.public[*].id
+# }
 
-output "database_subnet_ids" {
-    value = aws_subnet.database[*].id
-}
+# output "private_subnet_ids" {
+#     value = aws_subnet.private[*].id
+# }
 
-output "az_info" {
-    value = data.aws_availability_zones.available
-}
+# output "database_subnet_ids" {
+#     value = aws_subnet.database[*].id
+# }
 
-output "default_vpc_info" {
-    value = data.aws_vpc.default
-}
+# output "database_subnet_group_name" {
+#     value = aws_db_subnet_group.default.name
+# }
 
-output "main_route_table_info" {
-    value = data.aws_route_table.main
-}
+# output "default_vpc_info" {
+#     value = data.aws_vpc.default
+# }
+
+# output "main_route_table_info" {
+#     value = data.aws_route_table.main
+# }
 
